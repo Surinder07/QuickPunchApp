@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_person_24px"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_person_24px"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Available Shifts" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_outline_fingerprint_24px"
+            android:title="Punch In" />
+
+        <item
+            android:id="@+id/nav_manage2"
+            android:icon="@drawable/ic_baseline_visibility_24px"
+            android:title="View My Shifts" />
+
+        <item
+            android:id="@+id/nav_manage3"
+            android:icon="@drawable/ic_baseline_history_24px"
+            android:title="Time Sheets" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
